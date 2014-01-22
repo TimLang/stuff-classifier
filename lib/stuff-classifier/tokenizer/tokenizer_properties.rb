@@ -1,9 +1,10 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 require 'set'
 StuffClassifier::Tokenizer::TOKENIZER_PROPERTIES = {
   "en" => {
     :preprocessing_regexps => {/['`]/ => '',/[_]/ => ' '},
     :stop_word => Set.new([
+    '的','个','得', 
     'a', 'about', 'above', 'across', 'after', 'afterwards', 
     'again', 'against', 'all', 'almost', 'alone', 'along', 
     'already', 'also', 'although', 'always', 'am', 'among', 

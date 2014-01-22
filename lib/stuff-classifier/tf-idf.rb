@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class StuffClassifier::TfIdf < StuffClassifier::Base
   extend StuffClassifier::Storage::ActAsStorable
 

@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 
 class StuffClassifier::Bayes < StuffClassifier::Base
   attr_accessor :weight

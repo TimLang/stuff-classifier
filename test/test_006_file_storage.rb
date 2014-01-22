@@ -1,4 +1,5 @@
-require 'helper'
+# -*- encoding : utf-8 -*-
+require './helper'
 
 
 class Test006FileStorage < TestBase

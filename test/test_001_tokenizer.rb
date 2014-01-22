@@ -1,5 +1,6 @@
+# -*- encoding : utf-8 -*-
 # -*- coding: utf-8 -*-
-require 'helper.rb'
+require './helper.rb'
 
 class Test001Tokenizer < TestBase
   before do
