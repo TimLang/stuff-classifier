@@ -3,13 +3,13 @@ $:.push File.expand_path("../lib", __FILE__)
 require "stuff-classifier/version"
 
 Gem::Specification.new do |s|
-  s.name        = "stuff-classifier"
+  s.name        = "stuff-classifier-chinese"
   s.version     = StuffClassifier::VERSION
-  s.authors     = ["Alexandru Nedelcu"]
-  s.email       = ["me@alexn.org"]
-  s.homepage    = "https://github.com/alexandru/stuff-classifier/"
+  s.authors     = ["Tim Lang"]
+  s.email       = ["langyong135@gmail.com"]
+  s.homepage    = "https://github.com/TimLang/stuff-classifier/"
   s.summary     = %q{Simple text classifier(s) implemetation}
-  s.description = %q{2 methods are provided for now - (1) naive bayes implementation + (2) tf-idf weights}
+  s.description = %q{forked from https://github.com/alexandru/stuff-classifier, 2 methods are provided for now - (1) naive bayes implementation + (2) tf-idf weights}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
